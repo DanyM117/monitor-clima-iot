@@ -21,6 +21,7 @@ bucket = os.getenv('INFLUX_BUCKET')
 sucursal_id = os.getenv('SUCURSAL_ID', 'Sucursal_Test')
 
 # Variables de Correo
+load_dotenv()
 EMAIL_USER = os.getenv('EMAIL_REMITENTE')
 EMAIL_PASS = os.getenv('EMAIL_PASSWORD')
 EMAIL_TO = os.getenv('EMAIL_DESTINO')
