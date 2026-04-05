@@ -192,7 +192,7 @@ while True:
                 conteo_temps += 1
                 temp_promedio = suma_temps / conteo_temps
                 # ------------------------------------
-                if temp_actual > UMBRAL_TEMPERATURA:
+                if temp_actual >= UMBRAL_TEMPERATURA:
                     enviar_alerta(temp_actual)
 
                 if tiene_pantalla and lcd:
